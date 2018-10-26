@@ -20,6 +20,7 @@ def calculate(arg):
 def main():
     while True:
         calculate(input('rpn calc>'))
+        print(result)
 
 if __name__ == '__main__':
     main()
